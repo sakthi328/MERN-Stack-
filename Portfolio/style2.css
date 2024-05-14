@@ -1,0 +1,29 @@
+.topnav {
+    overflow: hidden;
+    background-color: #fff; 
+    text-align: right; 
+  }
+  
+  .topnav a {
+    display: inline-block; 
+    color: #000; 
+    text-align: center;
+    padding: 20px 40px;
+    text-decoration: none;
+  }
+  
+  .topnav a.active {
+     color: #4CAF50; /* Change this to the desired active link background color */
+  }
+  
+  .topnav a:hover {
+    color: #4CAF50; /* Change this to the desired hover background color */
+  }
+  
+  /* Optional: Add a media query for responsiveness */
+  @media screen and (max-width: 600px) {
+    .topnav {
+      text-align: left; /* Align links to the left */
+    }
+  }
+  

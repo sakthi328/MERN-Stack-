@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.style1 {
+    color:green;
+    font-size: 20px;
+    padding: 10px;
+    background-color: white; 
+    margin: 10px;
+}
+
+.style2 {
+    color:rgb(56, 226, 56);
+    font-style: italic;
+    font-size: 20px;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+}
+#welcome-btn{ 
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-bottom: 5%;
+    color: green;
+    background-color:white;
+    border-color: green;
+
+}
+#welcome-message{
+    text-align: center;
+    font-size: xx-large;
+    font-style: italic;
+    color: green;
+}
+.txt-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+   
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: x-large;
+}
+
+.input-group label {
+    width: 120px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.input-group input {
+    flex-grow: 1;
+    
+}
+#text-to-display{
+    font-size: x-large;
+}
+#display-text-btn{
+    margin: 20px;
+    background-color: white;
+    padding: 10px;
+    font-size: large;
+}
